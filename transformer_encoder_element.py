@@ -64,13 +64,6 @@ def test_layernorm():
     layernorm = LayerNorm(num_features=config.d_model)
     result = layernorm(x)
     print(f'layer-norm result: {result.shape}')
-
-    # Optional: compare with torch.nn.LayerNorm
-    # layernorm = torch.nn.LayerNorm(config.d_model)
-    # res = layernorm(x)
-    # print(f'official layer-norm result: {res.shape}')
-    # is_close = torch.allclose(result, res, 1e-4)
-    # print(f'values close: {is_close}')
     return result
 
 
