@@ -1,5 +1,5 @@
 """
-Encoder sub-layer demos:
+Encoder sub-layer:
   1) Multi-Head Attention + residual (Add) + LayerNorm
   2) Feed Forward + residual (Add) + LayerNorm
 """

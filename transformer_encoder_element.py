@@ -1,5 +1,5 @@
 """
-Encoder building blocks demo:
+Encoder building blocks:
 component -> sub-layer pieces used inside an encoder layer
   - multi-head attention + residual + norm
   - feed-forward + residual + norm
