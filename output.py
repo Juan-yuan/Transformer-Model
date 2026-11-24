@@ -6,7 +6,6 @@ Output layer demo:
 import sys
 from pathlib import Path
 
-# Prefer this folder's config.py over other projects named config (e.g. Smart-Voyage).
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import config

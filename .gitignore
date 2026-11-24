@@ -10,3 +10,5 @@ wheels/
 
 # ignore files
 config.py
+.hf_cache/
+model/
